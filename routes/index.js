@@ -17,7 +17,8 @@
  * See the Express application routing documentation for more information:
  * http://expressjs.com/api.html#app.VERB
  */
-
+var express = require('express');
+var 
 var keystone = require('keystone');
 var middleware = require('./middleware');
 var importRoutes = keystone.importer(__dirname);
