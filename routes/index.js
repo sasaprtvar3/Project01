@@ -24,7 +24,7 @@ var express = require('express');
 var keystone = require('keystone');
 var middleware = require('./middleware');
 var importRoutes = keystone.importer(__dirname);
-var Mia and Sasa 
+var Mia and Sasa is a plus
 // Common Middleware
 keystone.pre('routes', middleware.initLocals);
 keystone.pre('render', middleware.flashMessages);
